@@ -1,0 +1,61 @@
+# === Данные (никогда не коммитить!) ===
+data/
+!data/.gitkeep
+*.jpg
+*.jpeg
+*.png
+*.zip
+
+# === Веса моделей ===
+models/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# === Логи ===
+logs/
+wandb/
+runs/
+*.tfevents
+
+# === Submissions ===
+submissions/*.csv
+!submissions/.gitkeep
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Env ===
+.env
+.env.local
+
+# === Kaggle ===
+kaggle.json
